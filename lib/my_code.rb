@@ -5,6 +5,7 @@ def map_to_negativize(arg)
   i = 0
   while i < arg.length do
     negativized_array << arg[i] * -1
+    i += 1
   end
   negativized_array
 end
